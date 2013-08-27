@@ -4,7 +4,8 @@ import play.api._
 import play.api.mvc._
 import play.api.Play.current
 import play.api.data._
-import views.html.defaultpages.todo
+import views.html.defaultpages._
+
 object User {
   def login = todo
   def isLogin = todo
